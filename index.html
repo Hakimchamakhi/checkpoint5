@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" async></script>
+  <title>Shopping Cart Project</title>
+</head>
+
+<body>
+    <!--Nav-->
+    <nav class="nav">
+        <div class="nav_logo">
+            <h1>HAKIM<span>STORE</span></h1>
+        </div>
+
+        <ul class="nav_list">
+            <a href="#" class="login">Login</a>
+            <div class="cart_icon" id="open-popup-btn">
+                <h2>cart</h2>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="shop_div">
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 1</span>
+            <img class="shop-item-image" src="watch1.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$100</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 2</span>
+            <img class="shop-item-image" src="watch2.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$135</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 3</span>
+            <img class="shop-item-image" src="watch3.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$150</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 4</span>
+            <img class="shop-item-image" src="watch4.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$170</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 5</span>
+            <img class="shop-item-image" src="watch5.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$190</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 6</span>
+            <img class="shop-item-image" src="watch6.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$220</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+        <div class="shop_card">
+            <span class="shop-item-title">Watch 7</span>
+            <img class="shop-item-image" src="watch7.jpg" alt="watch">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$350</span>
+                <a class="shop-item-button">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="title">
+          Your Cart
+        </div>
+        <div class="description">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+        </div>
+        <div class="close-btn">
+          <button id="close-popup-btn">
+            Close
+          </button>
+        </div>
+    </div>
+</body>
+</html>
