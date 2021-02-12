@@ -6,6 +6,24 @@ document.getElementById("close-popup-btn").addEventListener("click",function(){
     document.getElementsByClassName("popup")[0].classList.remove("active");
 });
 
+var heartButtons = document.getElementsByClassName('fa-heart')
+    for (var i = 0; i < heartButtons.length; i++) {
+        var button = heartButtons[i]
+        button.addEventListener('click', heartchange)
+    }
+function heartchange(event){
+    console.log("clicked")
+    if ( event.target.classList.contains('far') ){
+        event.target.classList.remove("far")
+        event.target.classList.add("fas")
+    }
+    else {
+        event.target.classList.remove("fas")
+        event.target.classList.add("far")
+    }
+    
+};
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
