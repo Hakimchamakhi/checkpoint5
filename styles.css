@@ -118,7 +118,7 @@ ul, li {
     padding: 1em;
     padding-top: 20px;
 }
-.shop_div .shop_card .shop-item-details a{
+.shop_div .shop_card .shop-item-details .shop-item-button{
     float: right;
     text-decoration: none;
     color: orange;
@@ -130,9 +130,13 @@ ul, li {
     font-weight: 700;
     padding: 7px;
 }
-.shop_div .shop_card .shop-item-details a:hover{
+.shop_div .shop_card .shop-item-details .shop-item-button:hover{
     background-color: orange;
     color: white;
+}
+.fa-heart{
+    margin-left: 70px;
+    color: orange;
 }
 
 .popup {
